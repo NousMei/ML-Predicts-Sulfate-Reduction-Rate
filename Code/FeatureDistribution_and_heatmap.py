@@ -14,8 +14,7 @@ plt.yscale('log')
 sns.despine()
 plt.grid(axis='y', c='k', ls=':', lw=0.5)
 plt.ylabel('rate (mg L$^{-1}$ d$^{-1}$)')
-plt.savefig('..\\Output\\feature_distribution_outliers.png',
-            bbox_inches='tight', dpi=800)
+plt.savefig('figure name.png', bbox_inches='tight', dpi=800)
 # %%
 # heatmap
 fig, ax = plt.subplots(figsize=(3, 2))
